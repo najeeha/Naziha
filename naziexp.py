@@ -1,0 +1,5 @@
+a,b=(input()).split()
+c=int(a)
+d=int(b)
+exp=(c**d)
+print(exp)
