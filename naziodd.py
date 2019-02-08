@@ -1,6 +1,6 @@
-p,q=(input()).split()
-x=int(p)
-y=int(q)
+m,n=(input()).split()
+x=int(m)
+y=int(n)
 for num in range(x+1,y):
  if num%2!=0:
    print(num)
