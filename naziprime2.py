@@ -1,6 +1,6 @@
 a,b=input().split()
-m = int(x)
-n = int(y)
+m = int(a)
+n = int(b)
  
  
 aaaa=""
