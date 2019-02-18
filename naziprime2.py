@@ -1,10 +1,17 @@
-x,y= (input()).split()
-a=int(x)
-b=int(y)
-for num in range(a,b+ 1):
+a,b=input().split()
+m = int(x)
+n = int(y)
+ 
+ 
+aaaa=""
+ 
+for num in range(m,n):
+ 
    if num > 1:
        for i in range(2,num):
            if (num % i) == 0:
                break
        else:
-           print(num)
+           aaaa = aaaa + str(num)+' ' 
+ 
+print(aaaa.rstrip())
