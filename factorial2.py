@@ -1,10 +1,10 @@
-r = int(input())
+n = int(input())
 factorial = 1
-if r < 0:
+if n < 0:
    print("Sorry, factorial does not exist for negative numbers")
-elif r== 0:
+elif n== 0:
    print(1)
 else:
-   for i in range(1,r+ 1):
+   for i in range(1,n+ 1):
        factorial = factorial*i
    print(factorial)
