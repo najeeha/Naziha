@@ -1,7 +1,7 @@
 lower,upper = (input( )).split()
-a=int(lower)
-b=int(upper)
-for num in range(a, b):
+m=int(lower)
+n=int(upper)
+for num in range(m, n):
 
    
    order = len(str(num))
